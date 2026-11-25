@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO: cambiá título y descripción -->
+  <title>Matias Campos | Desarrollador web</title>
+  <meta name="description" content="Desarrollo sitios web y aplicaciones a medida. Mirá mis proyectos y pedime un presupuesto.">
+  <meta name="theme-color" content="#12151c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Matias<span>.Campos</span></a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+      <nav id="menu" class="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto" class="btn btn--small">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1>Hago sitios web y aplicaciones que funcionan y se ven bien.</h1>
+          <p>Soy Matias Campos, desarrollador full stack. Trabajo con freelancers, pymes y emprendedores para sacar sus ideas a internet.</p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn">Pedir presupuesto</a>
+            <a href="#proyectos" class="btn btn--ghost">Ver proyectos</a>
+          </div>
+        </div>
+        <div class="code" aria-hidden="true">
+          <div class="code__bar"><i></i><i></i><i></i><span>desarrollador.js</span></div>
+<pre><code><b>const</b> desarrollador = {
+  nombre: <s>"Matias Campos"</s>,
+  stack: [<s>"HTML"</s>, <s>"CSS"</s>, <s>"JavaScript"</s>],
+  disponible: <b>true</b>,
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2>Servicios</h2>
+        <p class="section__intro">Lo que puedo hacer por vos. Editá, agregá o borrá los que quieras.</p>
+        <ul class="services">
+          <li>
+            <h3>Sitios web a medida</h3>
+            <p>Páginas institucionales, landing pages y portafolios rápidos, adaptados a celular y listos para aparecer en Google.</p>
+          </li>
+          <li>
+            <h3>Aplicaciones web</h3>
+            <p>Sistemas de gestión, paneles y herramientas internas que reemplazan planillas y tareas manuales.</p>
+          </li>
+          <li>
+            <h3>Tiendas online</h3>
+            <p>Catálogo, carrito y medios de pago integrados para que empieces a vender.</p>
+          </li>
+          <li>
+            <h3>Mantenimiento y mejoras</h3>
+            <p>Corrijo errores, actualizo y acelero sitios que ya tenés funcionando.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section section--alt">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <p class="section__intro">Reemplazá las imágenes de la carpeta <code>img/</code> y los enlaces por los tuyos.</p>
+        <div class="projects">
+          <article class="project">
+            <div class="project__img"><img src="img/proyecto-1.jpg" alt="Captura del Proyecto 1" loading="lazy" onerror="this.remove()"></div>
+            <div class="project__body">
+              <h3>Nombre del proyecto 1</h3>
+              <p>Una frase sobre qué problema resolvía y qué hiciste vos.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <p class="project__links"><a href="#">Ver sitio</a> <a href="#">Código</a></p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__img"><img src="img/proyecto-2.jpg" alt="Captura del Proyecto 2" loading="lazy" onerror="this.remove()"></div>
+            <div class="project__body">
+              <h3>Nombre del proyecto 2</h3>
+              <p>Una frase sobre qué problema resolvía y qué hiciste vos.</p>
+              <ul class="tags"><li>React</li><li>Node.js</li></ul>
+              <p class="project__links"><a href="#">Ver sitio</a> <a href="#">Código</a></p>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project__img"><img src="img/proyecto-3.jpg" alt="Captura del Proyecto 3" loading="lazy" onerror="this.remove()"></div>
+            <div class="project__body">
+              <h3>Nombre del proyecto 3</h3>
+              <p>Una frase sobre qué problema resolvía y qué hiciste vos.</p>
+              <ul class="tags"><li>Python</li><li>SQL</li></ul>
+              <p class="project__links"><a href="#">Ver sitio</a> <a href="#">Código</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="section">
+      <div class="container about">
+        <div>
+          <h2>Sobre mí</h2>
+          <p>Contá en dos o tres frases quién sos, desde cuándo programás y cómo trabajás con tus clientes.</p>
+          <p>Podés agregar qué te distingue: comunicación clara, entregas por etapas, soporte posterior.</p>
+        </div>
+        <div>
+          <h3>Tecnologías</h3>
+          <ul class="tags tags--big">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li><li>React</li><li>Node.js</li><li>Python</li><li>SQL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--alt">
+      <div class="container contact">
+        <div>
+          <h2>Contacto</h2>
+          <p>Contame qué necesitás y te respondo con una propuesta.</p>
+          <ul class="contact__links">
+            <li><a href="mailto:tituxandronicux333@gmail.com">Gmail</a></li>
+            <li><a href="https://wa.me/5492213185495" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://github.com/titux333" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
+        <form id="form" class="form">
+          <label>Nombre <input type="text" name="nombre" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Mensaje <textarea name="mensaje" rows="5" required></textarea></label>
+          <button type="submit" class="btn">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Matias Campos. Diseño personalizado con HTML, CSS y JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
